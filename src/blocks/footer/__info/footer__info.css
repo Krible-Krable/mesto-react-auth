@@ -1,0 +1,24 @@
+.footer__info {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #545454;
+    margin: 46px 0 60px;
+}
+
+
+
+@media (max-width: 1038px) {
+    .footer__info {
+       margin: 46px auto 60px;
+    }
+}
+@media (max-width: 767px) {
+    .footer__info {
+       font-size: 14px;
+       line-height: 17px;
+       margin: 46px 20px 60px;
+    }
+}

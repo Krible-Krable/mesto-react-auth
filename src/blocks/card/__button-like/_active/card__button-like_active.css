@@ -1,0 +1,14 @@
+.card__button-like_active {
+  background: url("./../../../../images/likeBlack.svg") center;
+  background-repeat: no-repeat;
+  box-sizing: unset;
+  border: none;
+  outline: none;
+  height: 19px;
+  width: 21px;
+}
+
+.card__button-like_active:hover {
+  /* cursor: pointer; */
+  opacity: 1;
+}

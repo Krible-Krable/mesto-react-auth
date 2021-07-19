@@ -1,0 +1,11 @@
+.profile {
+    margin: 40px auto  50px;
+}
+
+
+@media (max-width: 767px) {
+    .profile {
+       margin: 38px auto  36px;
+    }
+}
+

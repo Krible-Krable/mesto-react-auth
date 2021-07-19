@@ -1,0 +1,28 @@
+.profile__avatar-wrap {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.profile__avatar-wrap::after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 26px 26px;
+  /* transition: opacity 0.5s ease; */
+}
+
+.profile__avatar-wrap:hover::after {
+  content: "";
+  background: url(./../../../images/penсil.svg) no-repeat;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-position: 50px;
+  transition: opacity 0.5s linear;
+}

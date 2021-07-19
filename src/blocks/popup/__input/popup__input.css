@@ -1,0 +1,39 @@
+.popup__input {
+    font-family: inherit;
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+    border: 0;
+    box-sizing: border-box;
+    text-overflow: clip;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.294);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+
+.popup__input::placeholder {
+    font-family: "Inter", sans-serif;
+}
+
+.popup__input:focus {
+    outline: 0; 
+}
+
+/* https://habr.com/ru/post/332804/  */
+.popup__input:invalid:not(:placeholder-shown) {
+    border-bottom: 1px solid rgb(255, 0, 0);
+} 
+
+
+@media (max-width: 767px) {
+    .popup__input {
+       padding-bottom: 12px;
+       margin-bottom: 20px;
+       font-size: 12px;
+       line-height: 15px;
+  }
+} 
+
+
